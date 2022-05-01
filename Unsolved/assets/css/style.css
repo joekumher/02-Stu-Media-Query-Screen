@@ -41,18 +41,33 @@ header {
   .card {
     float: none;
     width: 100%;
-    
+
+
   }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   .column {
     width: 50%;
   }
 }
+
 /* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+    
+  }
+}
+
+@media screen and (max-width:992px) {
+   header {
+    background: firebrick;
+  }
+}
+
+@media screen and(max-width:992px) {
+  header {
+    background: firebrick;
   }
 }
