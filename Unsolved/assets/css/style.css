@@ -66,8 +66,8 @@ header {
   }
 }
 
-@media screen and(max-width:992px) {
+@media screen and (max-width:600px) {
   header {
-    background: firebrick;
-  }
+   background: rgb(27, 209, 233);
+ }
 }
